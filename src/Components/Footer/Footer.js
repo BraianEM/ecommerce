@@ -4,18 +4,20 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="link-footer">
-      <div className="containerF">
-        <ul>
-          <li>
-            <img src={logo2} alt="logo" className="loguito" />
-          </li>
-          <li>Misiotrónica</li>
-          <li>Avenida SiempreViva 123</li>
-          <li>Buenos Aires</li>
-        </ul>
+    <nav className="footer">
+      <div className="link-footer">
+        <div className="containerF">
+          <ul>
+            <li>
+              <img src={logo2} alt="logo" className="loguito" />
+            </li>
+            <li>Misiotrónica</li>
+            <li>Avenida SiempreViva 123</li>
+            <li>Buenos Aires</li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
