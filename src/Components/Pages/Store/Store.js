@@ -1,8 +1,10 @@
 const Store = () => {
-    return (
-        <>
-        <Navbar />
-        <h1>Home</h1>
-        </>
-    )
+  return (
+    <div className="Store">
+      <h1>Store</h1>
+      <p>tiendita</p>
+    </div>
+  );
 };
+
+export default Store;

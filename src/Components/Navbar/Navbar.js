@@ -1,22 +1,35 @@
 import React from "react";
-import logo from "../../assets/logo.png";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import logo from "../../assets/img/logo192.png"
+import "./Navbar.css"
+import Comando from "./Comandos/Comando.js";
+
+
 
 const Navbar = () => {
   return (
-    <header className="header__middle">
-      <div className="container">
-        <div className="row">
-          <div className="header_middle_logo">
-            <NavLink exact activeClassName='is-active' to='/'>
-              <img src={logo} alt="logo"/>
-            </NavLink>
-          </div>
+    <>
+      <nav className="navbar">
+      <img src={logo} alt="logo" />
+        <Link to="/" className="navbar-logo">
+          Tienda Electrónica
+        </Link>
+        <li>
+          <Comando Link="/" texto="INICIO"/>
+        </li>
+        <li>
+          <Comando Link="/About" texto="INFORMACIÓN"/>
+        </li>
+        <li>
+          <Comando Link="/Store" texto="Tienda"/>
+        </li>
+        <li>
+          <Comando Link="/Contact" texto="CONTACTO"/>
+        </li>
 
-
-        </div>
-      </div>
-    </header>
+      
+      </nav>
+    </>
   );
 };
 
