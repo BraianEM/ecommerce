@@ -1,15 +1,17 @@
+import React from "react";
+
 const Contact = () => {
     return (
        <div className="Contact">
         <h1>Formulario</h1>
         <form method="POST">
             <label>Nombre</label>
-            <imput type="text" name="nombre"/>
+            <input type="text" id="Nombre" autocomplete="off" />
             <label>Email</label>
-            <imput type="text" name="email"/>
+            <input type="text" id="Email" autocomplete="off" />
             <label>Mensaje</label>
-            <textarea name="mensaje"></textarea>
-            <imput type="submit" value="Enviar"/>
+            <textarea name="Mensaje"></textarea>
+            <input type="submit" value="Enviar" />
          </form>
        </div>
     )
