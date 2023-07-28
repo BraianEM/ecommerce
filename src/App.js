@@ -6,10 +6,12 @@ import Contact from "./Components/Pages/Contact/Contact";
 import Store from "./Components/Pages/Store/Store";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
+import '../src/App.css';
 
 
 function App() {
   return (
+    <div className="bg bg-dbg-100 min-h-screen">
     <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -21,6 +23,7 @@ function App() {
       </Routes>
       <Footer />
     </BrowserRouter>
+    </div>
   );
 }
 
