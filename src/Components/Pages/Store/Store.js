@@ -9,19 +9,16 @@ const Store = () => {
   const [products, setProducts] = useState(productos)
   useEffect(() => {
     console.log('products cambio');
-  },[products])
+  }, [products])
   return (
-    <div className="Store bg-dbg-100 min-h-screen">
+    <div className="Store min-h-screen">
       <Titulo titulo="Tienda" />
-      <SearchBar products={products} setProducts={setProducts}/>
-      <div className="flex flex-wrap gap-2">
-        {products.map(function (element) {
+      <SearchBar products={products} setProducts={setProducts} />
+      <div className="flex flex-wrap items-center justify-center gap-2">
+        {products.map(function (producto, index) {
           return (
-            <Cards
-              imagen={element.imagen}
-              nombre={element.nombre}
-              descripcion={element.descripcion}
-              precio={element.precio}
+            <Cards key={index}
+              producto={producto}
             />
           );
         })}

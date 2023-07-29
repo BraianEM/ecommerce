@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
-    <div className="justify-center flex mt-3 px-4">
-      <div className="flex w-full  bg-dbg-200 h-[350px] rounded-3xl">
+    <div className="justify-center flex items-center pt-44">
+      <div className="flex w-full items-center h-[350px] rounded-3xl">
         <div className="  w-1/2 flex flex-col items-center justify-center gap-10">
           <div className=" flex flex-col text-start w-2/3">
             <h1 className="text-dtext-100 font-semibold text-[40px] text-start">
@@ -27,7 +27,7 @@ const Banner = () => {
           </Link>
         </div>
         <div className=" w-1/2">
-          <img className="h-full w-full " src={logo} alt="logo" />
+          {/* <img className="h-full w-full " src={logo} alt="logo" /> */}
         </div>
       </div>
     </div>
