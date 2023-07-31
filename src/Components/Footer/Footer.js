@@ -1,4 +1,5 @@
 import React from "react";
+import { BiLogoTwitter , BiLogoInstagram , BiLogoFacebookCircle } from "react-icons/bi";
 
 import "./Footer.css";
 
@@ -12,32 +13,32 @@ const Footer = () => {
         <div className="sm:flex grid items-center justify-center py-5 gap-10 m-auto ">
           <div>
             <h5 className="font-semibold text-lg text-dtext-100">
-              Información útil
+              Ubicación
             </h5>
             <ul className="gap-1 text-dtext-200">
-              <li>Misiotrónica</li>
-              <li>Avenida SiempreViva 123</li>
+              <li>Argentina</li>
               <li>Buenos Aires</li>
+              <li>9 de Julio 247</li>
             </ul>
           </div>
           <div>
             <h5 className="font-semibold text-lg text-dtext-100">
-              Información útil
+              Horario
             </h5>
             <ul className="gap-1 text-dtext-200">
-              <li>Misiotrónica</li>
-              <li>Avenida SiempreViva 123</li>
-              <li>Buenos Aires</li>
+              <li>Lunes a Viernes 09:00-18:00 hs</li>
+              <li>Sábado 09:00-13:00 hs</li>
+              <li>Domingo 14:00-18:00 hs</li>
             </ul>
           </div>
           <div>
               <h5 className="font-semibold text-lg text-dtext-100">
-                Información útil
+                Redes Sociales
               </h5>
-            <ul className="gap-1 text-dtext-200">
-              <li>Misiotrónica</li>
-              <li>Avenida SiempreViva 123</li>
-              <li>Buenos Aires</li>
+            <ul className="gap-1 text-dtext-200 flex flex-col">
+              <li className="flex items-center gap-1"><BiLogoTwitter/>Misiotrónica</li>
+              <li className="flex items-center gap-1"><BiLogoInstagram/>Misiotrónica</li>
+              <li className="flex items-center gap-1"><BiLogoFacebookCircle/>Misiotrónica</li>
             </ul>
           </div>
         </div>

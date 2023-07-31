@@ -7,12 +7,12 @@ const NotFound = () => {
       <div class="container mx-auto px-6 md:px-12 relative z-10 flex  items-center py-32 xl:py-40">
         <div class="w-full font-mono flex flex-col items-center justify-end relative z-10">
           <div>
-          <h1 class="font-extrabold text-5xl text-center text-white leading-tight mt-4">
+          <h1 class="font-extrabold text-5xl text-center text-dtext-100 leading-tight mt-4">
             You are all alone here
           </h1>
         </div>
         <div className="flex justify-end w-full ">
-          <p class="font-extrabold text-8xl my-44 text-white animate-bounce">
+          <p class="font-extrabold text-8xl my-44 text-dtext-100 animate-bounce">
             404
           </p>
         </div>
