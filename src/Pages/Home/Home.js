@@ -1,6 +1,5 @@
-
-import Banner from "../../Banner";
-import fimage from "../../../assets/img/bghome.jpg";
+import Banner from "../../Components/Banner";
+import fimage from "../../../src/assets/img/bghome.jpg";
 
 const Home = () => {
   return (

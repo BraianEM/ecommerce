@@ -1,7 +1,7 @@
 import React from "react";
-import Titulo from "../../Titulo/Tittle";
-import aimg from "../../../assets/img/about.jpg"
-import logo from '../../../assets/img/LOGO64.png'
+import Titulo from "../../Components/Titulo/Tittle";
+import aimg from "../../../src/assets/img/about.jpg"
+import logo from '../../../src/assets/img/LOGO64.png'
 import { Link } from "react-router-dom";
 
 
@@ -35,10 +35,10 @@ const About = () => {
 
                 </div>
             </div>
-            <div class="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
+            <div className="flex items-end justify-end fixed bottom-0 right-0 mb-4 mr-4 z-10">
         <div>
-          <Link to="/" class="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
-            <img class="object-cover object-center w-full h-full rounded-full" src={logo} />
+          <Link to="/" className="block w-16 h-16 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12">
+            <img className="object-cover object-center w-full h-full rounded-full" src={logo} alt="logo" />
           </Link>
         </div>
       </div>

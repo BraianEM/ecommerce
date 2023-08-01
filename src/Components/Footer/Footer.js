@@ -1,15 +1,11 @@
 import React from "react";
-import { BiLogoTwitter , BiLogoInstagram , BiLogoFacebookCircle } from "react-icons/bi";
+import { BiLogoTwitter, BiLogoInstagram, BiLogoFacebookCircle } from "react-icons/bi";
 
-import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="bg-dbg-200 px-4 ">
+    <footer className="bg-dbg-100 px-4 ">
       <div className="flex flex-col sm:flex-row items-center ">
-        <div className="flex">
-        {/* <img src={logo2} alt="logo" className="m-auto flex w-40 h-40" /> */}
-        </div>
         <div className="sm:flex grid items-center justify-center py-5 gap-10 m-auto ">
           <div>
             <h5 className="font-semibold text-lg text-dtext-100">
@@ -32,13 +28,13 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-              <h5 className="font-semibold text-lg text-dtext-100">
-                Redes Sociales
-              </h5>
+            <h5 className="font-semibold text-lg text-dtext-100">
+              Redes Sociales
+            </h5>
             <ul className="gap-1 text-dtext-200 flex flex-col">
-              <li className="flex items-center gap-1"><BiLogoTwitter/>Misiotrónica</li>
-              <li className="flex items-center gap-1"><BiLogoInstagram/>Misiotrónica</li>
-              <li className="flex items-center gap-1"><BiLogoFacebookCircle/>Misiotrónica</li>
+              <li className="flex items-center gap-1"><BiLogoTwitter />Misiotrónica</li>
+              <li className="flex items-center gap-1"><BiLogoInstagram />Misiotrónica</li>
+              <li className="flex items-center gap-1"><BiLogoFacebookCircle />Misiotrónica</li>
             </ul>
           </div>
         </div>

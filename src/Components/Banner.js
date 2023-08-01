@@ -1,6 +1,4 @@
-import logo from "../assets/img/banner.jpg";
 import React from "react";
-import Titulo from "../Components/Titulo/Tittle";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 
