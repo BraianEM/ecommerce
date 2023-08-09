@@ -36,7 +36,7 @@ const Navbar = () => {
             <li className="flex items-center m-auto gap-1 p-1">
               <IoMdPeople className="text-dtext-200 text-xl " />
               <Link
-                to="/About"
+                to="/about"
                 className="block  text-dtext-200 rounded  md:hover:bg-transparent md:border-0 hover:text-blue-700 md:p-0 "
               >
                 About
@@ -45,7 +45,7 @@ const Navbar = () => {
             <li className="flex items-center m-auto gap-1 p-1">
               <BiSolidShoppingBags className="text-dtext-200 text-xl " />
               <Link
-                to="/Store"
+                to="/store"
                 className="block  text-dtext-200 rounded  md:hover:bg-transparent md:border-0 hover:text-blue-700 md:p-0 "
               >
                 Store
@@ -54,7 +54,7 @@ const Navbar = () => {
             <li className="flex  items-center m-auto gap-1 p-1">
               <BiSolidContact className="text-dtext-200 text-xl" />
               <Link
-                to="/Contact"
+                to="/contact"
                 className="block  text-dtext-200 rounded  md:hover:bg-transparent md:border-0 hover:text-blue-700 md:p-0 "
               >
                 Contact
