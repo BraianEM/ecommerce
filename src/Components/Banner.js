@@ -14,7 +14,7 @@ const Banner = () => {
           </div>
           <Link
             to="/Store"
-            className="bg-dPrimary-200 text-dtext-100 text-center py-2 px-8 justify-center rounded-3xl flex items-center shadow-lg "
+            className="bg-dPrimary-100 hover:bg-dPrimary-200 text-dtext-100 text-center py-2 px-8 justify-center rounded-3xl flex items-center shadow-lg "
           >
             Ir a la Tienda
             <IoIosArrowRoundForward className="text-dtext-100 h-9 w-9" />

@@ -32,9 +32,9 @@ const Footer = () => {
               Redes Sociales
             </h5>
             <ul className="gap-1 text-dtext-200 flex flex-col">
-              <li className="flex items-center gap-1"><BiLogoTwitter />Misiotrónica</li>
-              <li className="flex items-center gap-1"><BiLogoInstagram />Misiotrónica</li>
-              <li className="flex items-center gap-1"><BiLogoFacebookCircle />Misiotrónica</li>
+              <li className="flex items-center gap-1 hover:text-blue-700"><BiLogoTwitter />Misiotrónica</li>
+              <li className="flex items-center gap-1 hover:text-blue-700"><BiLogoInstagram />Misiotrónica</li>
+              <li className="flex items-center gap-1 hover:text-blue-700"><BiLogoFacebookCircle />Misiotrónica</li>
             </ul>
           </div>
         </div>

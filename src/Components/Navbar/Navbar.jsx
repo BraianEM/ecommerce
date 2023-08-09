@@ -24,7 +24,7 @@ const Navbar = () => {
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className=" md:flex md:gap-5">
-            <li className="flex  gap-1 p-1">
+            <li className="flex items-center m-auto gap-1 p-1">
               <IoMdHome className="text-dtext-200 text-xl " />
               <Link
                 to="/"

@@ -4,7 +4,7 @@ const Cards = ({producto}) => {
   return (
    <>
    
-    <div className="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-dPrimary-100 bg-gray-200 shadow-md">
+    <div className="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-dPrimary-100 bg-gray-200 shadow-md hover:scale-105 transition-all">
       <a className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl items-center">
         <img className="object-cover hover:scale-110 transition-all h-full w-full aspect-auto" src={producto.imagen} />
         <span className="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-dtext-100">{producto.descuento}% OFF</span>

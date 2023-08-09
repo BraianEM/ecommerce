@@ -11,7 +11,7 @@ const Contact = () => {
 
           <div className="w-full p-8 my-4 md:px-12 lg:pl-20 lg:pr-20 mr-auto rounded-2xl shadow-2xl bg-dbg-200/40 backdrop-blur-md">
             <div className="flex">
-              <h1 className="font-bold uppercase text-5xl text-dtext-100">Envianos un <br /> mensaje</h1>
+              <h1 className="font-bold uppercase text-5xl text-dtext-100">Envíanos un <br /> mensaje</h1>
             </div>
             <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
               <input className="w-full bg-gray-300 text-black mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
@@ -27,7 +27,7 @@ const Contact = () => {
               <textarea placeholder="Message*" className="w-full h-32 bg-gray-200 text-black mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
             </div>
             <div className="my-2 w-1/2 lg:w-1/4">
-              <button className="uppercase text-sm font-bold tracking-wide bg-dPrimary-200 text-dtext-100 p-3 rounded-lg w-full 
+              <button className="uppercase text-sm font-bold tracking-wide bg-dPrimary-100 hover:bg-dPrimary-200 text-dtext-100 p-3 rounded-lg w-full 
                       focus:outline-none focus:shadow-outline">
                 Enviar
               </button>
