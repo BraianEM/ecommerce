@@ -9,7 +9,7 @@ const Contact = () => {
       <div style={{'--image-url': `url(${bg4})`}} className="flex justify-center min-w-screen min-h-screen items-center bg-dPrimary-200 bg-[image:var(--image-url)] bg-cover bg-center ">
         <div className="container flex items-center justify-center  px-4 lg:px-20 " >
 
-          <div className="w-full p-8 my-4 md:px-12 lg:pl-20 lg:pr-20 mr-auto rounded-2xl shadow-2xl bg-dbg-200/40 backdrop-blur-md">
+          <div className="w-full p-8 my-4 md:px-12 lg:pl-20 lg:pr-20 mr-auto rounded-2xl shadow-2xl bg-dbg-200/40 backdrop-blur-md ">
             <div className="flex">
               <h1 className="font-bold uppercase text-5xl text-dtext-100">Envíanos un <br /> mensaje</h1>
             </div>
